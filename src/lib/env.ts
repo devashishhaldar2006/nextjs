@@ -1,4 +1,5 @@
 export const ENV={
     PORT: process.env.PORT || 3000,
-    MONGODB_URI: process.env.MONGODB_URI || "mongodb://localhost:27017/myapp"
+    MONGODB_URI: process.env.MONGODB_URI || "mongodb://localhost:27017/myapp",
+    NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET || "default_secret",
 }
